@@ -6,6 +6,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="gamePreviews.js"></script>
     </head>
     <body>
 		<section class="top">
@@ -19,11 +21,54 @@
 		<section class="middle">
 			<div class="content">
 				<div class="gameBar">
+					<input type="image" src="ship.png" class="game" id="game0">
+					<input type="image" src="re2.jpg" class="game" id="game1">
+					<input type="image" src="re2.jpg" class="game" id="game2">
 					<input type="image" src="re2.jpg" class="game">
 					<input type="image" src="re2.jpg" class="game">
-					<input type="image" src="re2.jpg" class="game">
-					<input type="image" src="re2.jpg" class="game">
-					<input type="image" src="re2.jpg" class="game">
+				</div>
+				<div class="previewContainer">
+					<div class="previews">
+						<div class="preview" id="preview0">
+						<div class="leftPreview">
+							<h1>About Me</h1>
+							<p>
+								Hi! My name is Devin.
+							</p>
+						</div>
+						<div class="rightPreview">
+							<input type="image" src="re2.jpg" class="skills">
+							<input type="image" src="re2.jpg" class="skills">
+							<input type="image" src="re2.jpg" class="skills">
+							<input type="image" src="re2.jpg" class="skills">
+							<p>
+								Talk about game here.
+							</p>
+						</div>
+						</div>
+						<div class="preview" id="preview1">
+							<div class="leftPreview">
+								<h1>Game TWO</h1>
+								<input type="button" value="Play">
+							</div>
+							<div class="rightPreview">
+								<p>
+									Talk about game here.
+								</p>
+							</div>
+						</div>
+						<div class="preview" id="preview2">
+							<div class="leftPreview">
+								<h1>Game TWO</h1>
+								<input type="button" value="Play">
+							</div>
+							<div class="rightPreview">
+								<p>
+									Talk about game here.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
