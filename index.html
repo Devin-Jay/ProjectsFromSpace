@@ -1,71 +1,213 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        	<title>Projects From Space</title>
+        <title>Projects From Space</title>
 		<link href="style.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script src="gamePreviews.js"></script>
     </head>
     <body>
 		<section class="top">
 			<div class = "logo">
-			<a href="index.html"><p class="header">Devin Jay</p></a>
+				<a href="index.html">
+					<p class="header">
+						Devin Jay
+					</p>
+				</a>
 			</div>
 			<ul class = "navigation">
-			<li class="navi"><span class="header">Projects</span></li><li class="navi"><span class="header">Contact</span></li>
+				<li class="navi">
+					<span class="header">
+						Contact
+					</span>
+				</li>
 			</ul>
 		</section>
 		<section class="middle">
 			<div class="content">
 				<div class="gameBar">
-					<input type="image" src="ship.png" class="game" id="game0">
+					<input type="image" src="ship.png" class="game hover" id="game0">
 					<input type="image" src="re2.jpg" class="game" id="game1">
 					<input type="image" src="re2.jpg" class="game" id="game2">
-					<input type="image" src="re2.jpg" class="game">
-					<input type="image" src="re2.jpg" class="game">
+					<input type="image" src="re2.jpg" class="game" id="game3">
+					<input type="image" src="re2.jpg" class="game" id="game4">
 				</div>
 				<div class="previewContainer">
 					<div class="previews">
 						<div class="preview" id="preview0">
-						<div class="leftPreview">
-							<h1>About Me</h1>
-							<p>
-								Hi! My name is Devin.
-							</p>
-						</div>
-						<div class="rightPreview">
-							<input type="image" src="re2.jpg" class="skills">
-							<input type="image" src="re2.jpg" class="skills">
-							<input type="image" src="re2.jpg" class="skills">
-							<input type="image" src="re2.jpg" class="skills">
-							<p>
-								Talk about game here.
-							</p>
-						</div>
-						</div>
-						<div class="preview" id="preview1">
 							<div class="leftPreview">
-								<h1>Game TWO</h1>
-								<input type="button" value="Play">
-							</div>
-							<div class="rightPreview">
+								<h1>About Me</h1>
 								<p>
-									Talk about game here.
+									Hello! I'm Devin, a senior at Northern Arizona University majoring in Computer Science. I'm passionate about becoming a full-time software engineer and have been building my skills through a variety of projects.
+									<br></br.><br></br.>
+									The "games" above represent work I've done over the years — some are programming projects, others are actual games. Right now, I'm developing a video game in Unity, exploring gameplay programming, art design, and even creative writing.
+									<br></br.><br></br.>
+									I'm always looking for ways to grow as a developer and bring creative ideas to life through code.
 								</p>
 							</div>
-						</div>
-						<div class="preview" id="preview2">
-							<div class="leftPreview">
-								<h1>Game TWO</h1>
-								<input type="button" value="Play">
-							</div>
 							<div class="rightPreview">
+								<h1>
+									Skills & Technologies
+								</h1>
 								<p>
-									Talk about game here.
+									Each of these skills has been applied and practiced through hands-on project work.
 								</p>
+								<div class="skillsContainer">
+								<ul class="skillsList">
+									<h2>
+									Programming Languages
+									</h2>
+									<li>
+										C
+									</li>
+									<li>
+										C#
+									</li>
+									<li>
+										Python
+									</li>
+									<li>
+										PHP
+									</li>
+									<li>
+										SQL
+									</li>
+									<li>
+										JavaScript
+									</li>
+									<li>
+										HTML
+									</li>
+									<li>
+										CSS
+									</li>
+									<li>
+										CUDA
+									</li>
+								</ul>
+								<ul class="skillsList">
+									<h2>
+									Tools & Technologies
+								</h2>
+									<li>
+										Unity
+									</li>
+									<li>
+										Git
+									</li>
+									<li>
+										Linux
+									</li>
+									<li>
+										Selenium
+									</li>
+									<li>
+										PHPUnit
+									</li>
+									<li>
+										Godot
+									</li>
+									<li>
+										Blender
+									</li>
+								</ul>
+								</div>
+							</div>
+							<div class="previewBox">
+								<h1>
+									Education
+								</h1>
+								<div style="grid-template-columns: repeat(2, 1fr); display: grid;">
+									<div style="padding-left: 2%;">
+										<p>
+										BS, Computer Science
+										<br>
+										Northern Arizona University (NAU)
+										<br><i>Flagstaff, AZ</i>
+										<br>
+										3.89 GPA
+										</p>
+									</div>
+									<div style="text-align: right; padding-right: 2%;">
+										Expected May 2026
+									</div>
+								</div>
+								<h2>
+									Relevent Coursework
+								</h2>
+								<p>
+									Data Structures, Software Engineering, Web Programming, Aritifial Intelligence, and Database Systems
+								</p>
+							</div>
+							<div class="previewBox">
+								<h1>Experience</h1>
+								<ul style="padding-left: 4%;">
+								<li>
+								<div style="grid-template-columns: 3fr 1fr; display: grid;">
+									<div>
+										<h2 style="padding-left: 0%;">PhenoCam, Research Assisstant</h2>
+										<p>I managed the webpage to ensure everything is uptodate and functional. Additionally, I managed a linux file system to ensure project data is stored properly and safely.</p>
+									</div>
+									<div style="text-align: right; padding-right: 2%;">
+										Fall 2024 - Present
+									</div>
+								</div>
+								</li>
+								<li>
+								<div style="grid-template-columns: 3fr 1fr; display: grid;">
+									<div>
+										<h2 style="padding-left: 0%;">Student Led Research, Northern Arizona University</h2>
+										<p>I conducted several interviews with pediatric physical/occupational therapists on game-based intervention methods. I also designed a custom health-focused game based off of the acquired research. Our research was also awarded Hooper Undergraduate Research Award</p>
+									</div>
+									<div style="text-align: right; padding-right: 2%;">
+										Spring 2024 - Present
+									</div>
+								</div>
+								</li>
+								<li>
+								<div style="grid-template-columns: 3fr 1fr; display: grid;">
+									<div>
+										<h2 style="padding-left: 0%;">Grader, Northern Arizona University</h2>
+										<p>I reviewed C programming assignments for an undergraduate Computer Science course while providing clear, constructive feedback.</p>
+									</div>
+									<div style="text-align: right; padding-right: 2%;">
+										Fall 2023
+									</div>
+								</div>
+								</li>
+								</ul>
+							</div>
+						</div>
+						<div class="gamePreview" id="preview1">
+							<div class="gameStart">
+								<h1>Game TWO</h1>
+								<div class="gameImages">
+									<img src="space.jpg" class="gameImage">
+									<img src="space.jpg" class="gameImage">
+									<img src="space.jpg" class="gameImage">
+								</div>
+								<a class="gameLink" href="https://github.com/cathyly02/KingdomOfInfluence" target="_blank" type="button">GitHub</a>
+								<p>
+									blah blah blah
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>test</li>
+									<li>test</li>
+									<li>test</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>test</li>
+									<li>test</li>
+									<li>test</li>
+								</ul>
 							</div>
 						</div>
 					</div>
