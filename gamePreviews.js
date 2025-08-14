@@ -40,4 +40,32 @@ $(document).ready(function() {
         $('.preview').css('display', 'none');
         $('#preview4').css('display', 'grid');
     });
+    $('#game5').hover(function() {
+        $('.game').removeClass('hover');
+        $('#game5').addClass('hover');
+        $('.gamePreview').css('display', 'none');
+        $('.preview').css('display', 'none');
+        $('#preview5').css('display', 'grid');
+    });
+    $('#game6').hover(function() {
+        $('.game').removeClass('hover');
+        $('#game6').addClass('hover');
+        $('.gamePreview').css('display', 'none');
+        $('.preview').css('display', 'none');
+        $('#preview6').css('display', 'grid');
+    });
+    $('#game7').hover(function() {
+        $('.game').removeClass('hover');
+        $('#game7').addClass('hover');
+        $('.gamePreview').css('display', 'none');
+        $('.preview').css('display', 'none');
+        $('#preview7').css('display', 'grid');
+    });
+    // $('#game8').hover(function() {
+    //     $('.game').removeClass('hover');
+    //     $('#game8').addClass('hover');
+    //     $('.gamePreview').css('display', 'none');
+    //     $('.preview').css('display', 'none');
+    //     $('#preview8').css('display', 'grid');
+    // });
   });

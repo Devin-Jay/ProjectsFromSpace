@@ -29,11 +29,15 @@
 		<section class="middle">
 			<div class="content">
 				<div class="gameBar">
-					<input type="image" src="ship.png" class="game hover" id="game0">
-					<input type="image" src="re2.jpg" class="game" id="game1">
-					<input type="image" src="re2.jpg" class="game" id="game2">
-					<input type="image" src="re2.jpg" class="game" id="game3">
-					<input type="image" src="re2.jpg" class="game" id="game4">
+					<input type="image" src="images/ship.png" class="game hover gameBackground" id="game0">
+					<input type="image" src="images/vicmIcon.png" class="game gameBackground" id="game1">
+					<input type="image" src="images/bbbIcon.png" class="game gameBackground" id="game2">
+					<input type="image" src="images/ccIcon.png" class="game gameBackground" id="game3" style="image-rendering: pixelated;">
+					<input type="image" src="images/rntIcon.png" class="game gameBackground" id="game4">
+					<input type="image" src="images/koiIcon.png" class="game gameBackground" id="game5">
+					<input type="image" src="images/osIcon.png" class="game gameBackground" id="game6">
+					<input type="image" src="images/emailIcon.png" class="game gameBackground" id="game7">
+					<!-- <input type="image" src="images/emailIcon.png" class="game gameBackground" id="game8"> -->
 				</div>
 				<div class="previewContainer">
 					<div class="previews">
@@ -148,7 +152,7 @@
 								<li>
 								<div style="grid-template-columns: 3fr 1fr; display: grid;">
 									<div>
-										<h2 style="padding-left: 0%;">PhenoCam, Research Assisstant</h2>
+										<h2 style="padding-left: 0%;">PhenoCam, Research Assistant</h2>
 										<p>I managed the webpage to ensure everything is uptodate and functional. Additionally, I managed a linux file system to ensure project data is stored properly and safely.</p>
 									</div>
 									<div style="text-align: right; padding-right: 2%;">
@@ -183,33 +187,202 @@
 						</div>
 						<div class="gamePreview" id="preview1">
 							<div class="gameStart">
-								<h1>Game TWO</h1>
+								<h1>VicM</h1>
 								<div class="gameImages">
-									<img src="space.jpg" class="gameImage">
-									<img src="space.jpg" class="gameImage">
-									<img src="space.jpg" class="gameImage">
+									<img src="images/vicm1.png" class="gameImage">
+									<img src="images/vicm2.png" class="gameImage">
+									<img src="images/vicm3.png" class="gameImage">
 								</div>
-								<a class="gameLink" href="https://github.com/cathyly02/KingdomOfInfluence" target="_blank" type="button">GitHub</a>
+								<a class="gameLink" href="https://zachg1235.github.io/VicM/" target="_blank" type="button">Play</a>
+								<a class="gameLink" href="https://github.com/ZachG1235/VicM" target="_blank" type="button">GitHub</a>
 								<p>
-									blah blah blah
+									VicM is a 2-D dungeon crawler where you play as, you guessed it &mdash; VicM, the tofu boy. You must enter into the dungeon to fight off the SoggyFry and the BurgerBoss, the king of the junk foods. I had the pleasure of working with 5 other people to bring VicM to life for a video game design class. I was responsible for creating several game mechanics, including the chopstick and soy sauce attacks. I also programmed and animated all of the enemies and VicM himself, making sure each attack (from both player and enemy) felt fun and impactful.
 								</p>
 							</div>
 							<div class="gameSkills">
 								<h1>Skills & Tech</h1>
 								<h2>Programming languages</h2>
 								<ul>
-									<li>test</li>
-									<li>test</li>
-									<li>test</li>
+									<li>C#</li>
 								</ul>
 								<h2>Technologies</h2>
 								<ul>
-									<li>test</li>
-									<li>test</li>
-									<li>test</li>
+									<li>Unity</li>
+									<li>Git & GitHub</li>
 								</ul>
 							</div>
 						</div>
+						<div class="gamePreview" id="preview2">
+							<div class="gameStart">
+								<h1>Bubble Buzzer Beater</h1>
+								<div class="gameImages">
+									<img src="images/bbb1.png" class="gameImage">
+									<img src="images/bbb2.png" class="gameImage">
+									<img src="images/bbb3.png" class="gameImage">
+								</div>
+								<a class="gameLink" href="https://github.com/HunterB433/BubbleBuzzerBeater" target="_blank" type="button">GitHub</a>
+								<p>
+									Bubble Buzzer Beater was created for the annual Global Game Jam 2025. Three other game designers and I spent 48 hours creating a game that had to do with the year's topic of bubbles. The game consists of many mini games that the player has to complete. I spent my time creating a bubble blowing mini game in which the player has to "blow" into their mic to create a bubble. I also made a jump scare minigame that takes your picture when it scares you and displays that picture at the end of the game. It was fun to (quickly) learn how to implement both microphone and camera features. My team and I ran into many complications during the 48 hours, but we worked together to make sure everyone was able to do what they set out to do.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>C#</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Unity</li>
+									<li>Git & GitHub</li>
+								</ul>
+							</div>
+						</div>
+						<div class="gamePreview" id="preview3">
+							<div class="gameStart">
+								<h1>Chomp Champs</h1>
+								<div class="gameImages">
+									<img src="images/cc1.png" class="vertGameImage">
+									<img src="images/cc2.png" class="vertGameImage">
+									<img src="images/cc3.png" class="vertGameImage">
+								</div>
+								<a class="gameLink" href="https://github.com/ZachG1235/ChompChamps" target="_blank" type="button">GitHub</a>
+								<p>
+									Chomp Champs is a turn-based mobile game developed for the CHI 2025 Student Game Design Competition. Its goal is to promote healthy eating habits among children by allowing them to take pictures of the foods they eat. The game then transforms the nutritional information into combat stats. Players battle their foods in-game to earn rewards; Healthier foods provide better rewards, encouraging smarter food choices. In a team of 4, I was responsible for incorporating the camera mechanics, letting players take a picture of a food that is then processed into an enemy.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>C#</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Unity</li>
+									<li>Git & GitHub</li>
+								</ul>
+							</div>
+						</div>
+						<div class="gamePreview" id="preview4">
+							<div class="gameStart">
+								<h1>RNT-A-ROOM</h1>
+								<div class="gameImages">
+									<img src="images/rnt1.png" class="gameImage">
+								</div>
+								<a class="gameLink" href="https://github.com/cl2493/cs386" target="_blank" type="button">GitHub</a>
+								<p>
+									RNT-A-ROOM is an Airbnb-like website that caters towards travel nurses. In a team of 4, we worked to create a way for travel nurses to book housing for their specific needs. My role was to work on the backend of the website: using PHP to create a login system for both travel nurses and homeowners, using classes to manage the different user types and housing options, and managing the JawsDB database to make sure data is stored efficiently and that houses can actually be booked. I also worked on the frontend side whenever help was needed. It was fun to learn backend web development in such a short time span and to also work in a team in a software engineering environment.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+									<li>PHP</li>
+									<li>SQL</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Heroku</li>
+									<li>Git & GitHub</li>
+									<li>phpMyAdmin</li>
+								</ul>
+							</div>
+						</div>
+						<div class="gamePreview" id="preview5">
+							<div class="gameStart">
+								<h1>Kingdom of Influence (WIP)</h1>
+								<div class="gameImages">
+									<img src="images/koi1.png" class="gameImage">
+									<img src="images/koi2.png" class="gameImage">
+									<img src="images/koi3.png" class="gameImage">
+								</div>
+								<a class="gameLink" href="https://thesatewarco.itch.io/koi-kingdom-of-influence" target="_blank" type="button">Play</a>
+								<a class="gameLink" href="https://github.com/cathyly02/KingdomOfInfluence" target="_blank" type="button">GitHub</a>
+								<p>
+									Kingdom of Influence is a role-playing game designed to support adults with autism who face challenges in social situations. Players create and customize their own character, explore a vibrant town, and engage in interactive scenarios that teach them how to recognize and interpret facial expressions and social cues. The goal is to help players develop practical social skills they can apply in real-life interactions.
+									The images above showcase the demo we created using Godot. Our next step is to develop the full game in Unreal Engine 4.
+									My contributions so far include building the quest system, which allows players to interact with NPCs and the environment. I also animated several animals in Blender, adding life and personality to the game world.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>GDScript</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Godot</li>
+									<li>Git & GitHub</li>
+									<li>Blender</li>
+								</ul>
+							</div>
+						</div>
+						<div class="gamePreview" id="preview6">
+							<div class="gameStart">
+								<h1>Operating System Simulation</h1>
+								<p>
+									The Github link is available upon request. <br><br>
+									I created a program that simulates the operations of a Unix-like OS kernel. I utilized several data structures, such as queues and linked lists, to implement features such as process scheduling, memory management, and inter-process communication. Additionally, I used POSIX threads to simulate process execution concurrency. This project was done in four stages, which required excellent planning skills to make sure each step was ready for the next set of features.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>C</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Git & GitHub</li>
+								</ul>
+							</div>
+						</div>
+						<div class="gamePreview" id="preview7">
+							<div class="gameStart">
+								<h1>Email Spam Classification</h1>
+								<a class="gameLink" href="https://github.com/Devin-Jay/EmailSpamClassification" target="_blank" type="button">GitHub</a>
+								<p>
+									Using a training dataset found online, I created a program that uses 3 different machine learning models to classify whether an email should be considered spam or not spam. The 3 models were Naïve Bayes, Logistic Regression, and K-Nearest-Neighbor. I then analyzed the results from each and compared their accuracies and performance.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>Python</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Git & GitHub</li>
+								</ul>
+							</div>
+						</div>
+						<!-- <div class="gamePreview" id="preview8">
+							<div class="gameStart">
+								<h1>Email Spam Classification</h1>
+								<a class="gameLink" href="https://github.com/Devin-Jay/EmailSpamClassification" target="_blank" type="button">GitHub</a>
+								<p>
+									Using a training dataset found online, I created a program that uses 3 different machine learning models to classify whether an email should be considered spam or not spam. The 3 models were Naïve Bayes, Logistic Regression, and K-Nearest-Neighbor. I then analyzed the results from each and compared their accuracies and performance.
+								</p>
+							</div>
+							<div class="gameSkills">
+								<h1>Skills & Tech</h1>
+								<h2>Programming languages</h2>
+								<ul>
+									<li>Python</li>
+								</ul>
+								<h2>Technologies</h2>
+								<ul>
+									<li>Git & GitHub</li>
+								</ul>
+							</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

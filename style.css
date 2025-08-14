@@ -8,7 +8,7 @@ body {
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
-	background-image: url('space.jpg'); /* or any image path */
+	background-image: url('images/space.jpg'); /* or any image path */
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
 	object-fit: cover;	
 }
 
-#game0 {
+.gameBackground {
 	background: #00000038;
 }
 .game {
@@ -211,8 +211,8 @@ body {
 	background: #00000038;
 	margin-right: 5%;
 	border-radius: 10px;
-	border:white 1px solid;
-	padding-bottom: 25%;
+	border:rgba(0, 0, 0, 0.043) 5px solid;
+	/* padding-bottom: 25%; */
 }
 
 .gameStart h1 {
@@ -224,11 +224,11 @@ body {
 
 .gameSkills {
 	background: #00000038;
-	max-width: 100%;
-	max-height: 100%;
+	/* max-width: 100%;
+	max-height: 100%; */
 	margin-right: 5%;
 	border-radius: 10px;
-	border:white 1px solid;
+	border:rgba(0, 0, 0, 0.043) 5px solid;
 }
 
 .gameSkills h1 {
@@ -258,13 +258,17 @@ body {
 }
 
 .gameImage {
-	max-width: 20%;
-	max-height: 20%;
+	max-width: 30%;
+	max-height: 30%;
 }
 
+.vertGameImage {
+	max-width: 15%;
+}
 .gameLink {
 	display: inline-block;
 	margin-left: 2%;
+	margin-top: 0.5%;
 	padding: 0.5% 1.5%;
 	font-size: 18px;
 	color: white;
