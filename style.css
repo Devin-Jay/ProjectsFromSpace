@@ -25,7 +25,6 @@ body {
 
 .middle {
 	/* font-size: 50px; */
-	color:#0A2647;
 	height:92%;
 }
 
@@ -312,4 +311,19 @@ span {
 
 a {
 	text-decoration:none;
+}
+
+.contactInfo {
+	margin: 1%;
+	border-radius: 10px;
+	border:rgba(0, 0, 0, 0.043) 5px solid;
+	color: white;
+	background: #00000038;
+	font-family: "DM Serif Text", cursive;
+	text-align: center;
+}
+
+.contactInfo p a {
+	color: white;
+	text-decoration: underline;
 }
