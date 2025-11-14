@@ -61,11 +61,18 @@ $(document).ready(function() {
         $('.preview').css('display', 'none');
         $('#preview7').css('display', 'grid');
     });
-    // $('#game8').hover(function() {
-    //     $('.game').removeClass('hover');
-    //     $('#game8').addClass('hover');
-    //     $('.gamePreview').css('display', 'none');
-    //     $('.preview').css('display', 'none');
-    //     $('#preview8').css('display', 'grid');
-    // });
+    $('#game8').hover(function() {
+        $('.game').removeClass('hover');
+        $('#game8').addClass('hover');
+        $('.gamePreview').css('display', 'none');
+        $('.preview').css('display', 'none');
+        $('#preview8').css('display', 'grid');
+    });
+    $('#game9').hover(function() {
+        $('.game').removeClass('hover');
+        $('#game9').addClass('hover');
+        $('.gamePreview').css('display', 'none');
+        $('.preview').css('display', 'none');
+        $('#preview9').css('display', 'grid');
+    });
   });
