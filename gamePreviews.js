@@ -75,4 +75,11 @@ $(document).ready(function() {
         $('.preview').css('display', 'none');
         $('#preview9').css('display', 'grid');
     });
+    $('#game10').hover(function() {
+        $('.game').removeClass('hover');
+        $('#game10').addClass('hover');
+        $('.gamePreview').css('display', 'none');
+        $('.preview').css('display', 'none');
+        $('#preview10').css('display', 'grid');
+    });
   });
